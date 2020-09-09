@@ -8,6 +8,13 @@ body {
     background: #eee;
 }
 
+
+/*
+=====================================
+ HEADER
+=====================================
+*/
+
 .header {
     display: flex;
     flex-direction: row;
@@ -20,19 +27,75 @@ body {
 }
 
 .header__left {
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 .header__left img {
     height: 20px;
     width: auto;
+    margin: 0 0.5rem;
+}
+
+.header__center {
+    display: flex;
 }
 
 .header__center input {
+    width: 550px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    font-size: 16px;
+}
+
+.header__center input,
+.header__center button {
+    padding: 0.5rem;
     height: 30px;
+    border: 1px solid #ddd;
+}
+
+.header__center button {
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background: #f4f4f4;
 }
 
 .search-icon {
+    height: 15px;
+}
+
+.header__right {
+    margin: 0 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__right img {
+    height: 20px;
+    width: auto;
+}
+
+.header__right img,
+.header__right button {
+    margin: 0 1rem;
+}
+
+.button-sign-in {
+    padding: 0.5rem;
+    border: 1px solid #4285F4;
+    color: #4285F4;
+    background: white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.three-dots-img {
     height: 10px;
 }
 
