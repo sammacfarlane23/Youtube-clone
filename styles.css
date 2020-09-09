@@ -9,10 +9,31 @@ body {
 }
 
 .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    background: red;
+    background: white;
     height: 56px;
     margin-bottom: 2rem;
+}
+
+.header__left {
+    margin: 0 2rem;
+}
+
+.header__left img {
+    height: 20px;
+    width: auto;
+}
+
+.header__center input {
+    height: 30px;
+}
+
+.search-icon {
+    height: 10px;
 }
 
 .video {
@@ -32,6 +53,5 @@ body {
     grid-gap: 2rem;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    grid-template-rows: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
