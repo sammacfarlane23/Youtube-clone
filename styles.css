@@ -132,6 +132,10 @@ body {
     margin: 0;
 }
 
+.video__buttons p:hover {
+    font-weight: 700;
+}
+
 .subscriber-count {
     margin-bottom: 1rem;
 }
@@ -153,6 +157,7 @@ body {
 .description-text {
     width: 25rem;
     grid-column-start: 2;
+    font-size: 13px;
 }
 
 .subscribe-button {
@@ -167,6 +172,15 @@ body {
 
 .channel-details {
     grid-column-start: 2;
+}
+
+.channel-details h1 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.channel-details p {
+    font-size: 13px;
 }
 
 .sidebar {
